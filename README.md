@@ -1,13 +1,29 @@
 # 🔐 Java Security Toolkit
 
-![Java](https://img.shields.io/badge/Java-17%2B-orange?style=flat-square&logo=java)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
-![Build](https://img.shields.io/badge/Build-Maven-blue?style=flat-square&logo=apache-maven)
-![Security](https://img.shields.io/badge/Security-Production--Ready-red?style=flat-square&logo=shield)
+## 🛡️ Technologies & Security
 
-A collection of **production-ready Java security implementations** extracted from a real Hotel Property Management System. Drop these classes into any Java project to add enterprise-grade security in minutes — no Spring, no framework dependency.
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
+![JDK](https://img.shields.io/badge/JDK-17-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 
-Built by a cybersecurity student at NuTech Institute of Technology as part of an OOP semester project.
+![Login Lockout](https://img.shields.io/badge/Login%20Lockout-Brute%20Force%20Protection-2E8B57?style=flat&logo=shield&logoColor=white)
+![Session Manager](https://img.shields.io/badge/Session%20Manager-UUID%20Tokens-1E90FF?style=flat&logo=key&logoColor=white)
+![Rate Limiter](https://img.shields.io/badge/Rate%20Limiter-IP%20Based-FF8C00?style=flat&logo=speedtest&logoColor=white)
+![SHA-256](https://img.shields.io/badge/SHA--256-Hashing-6A5ACD?style=flat&logo=letsencrypt&logoColor=white)
+![HMAC](https://img.shields.io/badge/HMAC-Integrity-4682B4?style=flat&logo=databricks&logoColor=white)
+![Input Validation](https://img.shields.io/badge/Input%20Validation-Whitelist%20Regex-228B22?style=flat&logo=checkmarx&logoColor=white)
+![SQL Injection Demo](https://img.shields.io/badge/SQL%20Injection-Demo-B22222?style=flat&logo=mysql&logoColor=white)
+![Append-Only Logs](https://img.shields.io/badge/Append--Only-Logs-008B8B?style=flat&logo=file-text&logoColor=white)
+![STRIDE](https://img.shields.io/badge/STRIDE-Threat%20Model-7B1FA2?style=flat&logo=matrix&logoColor=white)
+![Threat Modeling](https://img.shields.io/badge/Threat%20Modeling-Secure%20Design-5E35B1?style=flat&logo=gitbook&logoColor=white)
+![Secure Coding](https://img.shields.io/badge/Secure%20Coding-Best%20Practices-2E7D32?style=flat&logo=codefactor&logoColor=white)
+![Attack Mitigations](https://img.shields.io/badge/Attack-Mitigations-455A64?style=flat&logo=shield&logoColor=white)
+![Authentication Flow](https://img.shields.io/badge/Auth%20Flow-Defense%20in%20Depth-1565C0?style=flat&logo=auth0&logoColor=white)
+![Security Testing](https://img.shields.io/badge/Security-Testing-00897B?style=flat&logo=hackthebox&logoColor=white)
+
+A collection of production-ready Java security implementations — BCrypt hashing, AES-256-GCM encryption, RBAC, audit logging, brute-force protection, SQL injection prevention, and STRIDE threat modelling. Built from a real Hotel PMS project. Drop these classes into any Java project to add enterprise-grade security in minutes — no Spring, no framework dependency.
+
+Built by a cybersecurity student at NuTech as part of an OOP semester project.
 
 ---
 
@@ -283,12 +299,6 @@ java-security-toolkit/
     ├── STRIDE-threat-model.md
     └── OWASP-checklist.md
 ```
-
----
-
-## 🏨 Used In
-
-This toolkit was extracted from **[YowStay Hotel PMS](https://github.com/YOUR_USERNAME/yowstay-hotel-pms)** — a full Hotel Property Management System built with Java 21 + JavaFX 21, demonstrating all OOP concepts alongside these security features.
 
 ---
 
